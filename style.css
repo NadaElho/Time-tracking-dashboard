@@ -21,7 +21,7 @@ body {
   border-radius: 15px;
   padding: 30px;
   width: 400px;
-  max-width: 100%;
+  max-width: calc(100% - 40px);
 }
 .box .img,
 .box img.equi {
