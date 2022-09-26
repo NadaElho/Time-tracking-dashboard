@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0d1a2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.box {
+  background-color: #15273f;
+  box-shadow: 0px 0px 0 20px #0c1729, 0 0 0 40px #0c192c;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  padding: 30px;
+  width: 400px;
+  max-width: 100%;
+}
+.box .img,
+.box img.equi {
+  width: 340px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  max-width: 100%;
+}
+.box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1bf1f15c;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  display: none;
+}
+.box .img:hover .overlay {
+  display: flex;
+}
+.box img.avatar {
+  width: 40px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.box h2 {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.box p {
+  color: rgba(255, 255, 255, 0.596);
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.box .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.box .info .left {
+  color: #1bf1f1;
+  font-weight: bold;
+}
+.box .info .right,
+.box div {
+  color: rgba(255, 255, 255, 0.596);
+}
+hr {
+  border: 1px solid rgb(94 94 94);
+  margin-bottom: 30px;
+}
+.box .footer {
+  display: flex;
+  gap: 20px;
+}
+.box .footer > span {
+  line-height: 39.98px;
+}
+.box .name {
+  color: #fff;
+  line-height: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.box h2:hover,
+.box .name:hover {
+  color: #1bf1f1;
+}
