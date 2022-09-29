@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL here](https://your-solution-url.com)
+- [Solution URL here](https://github.com/NadaElho/Time-tracking-dashboard)
 - [Live site URL](https://nadaelho.github.io/Time-tracking-dashboard/)
 
 ## My process
