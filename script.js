@@ -14,6 +14,7 @@ for(let i=0;i<imgs.length;i++){
     box.appendChild(boxName);
     let image=document.createElement("img");
     image.src=`images/icon-${imgs[i]}.svg`;
+    image.alt=""
     boxName.appendChild(image);
     boxName.style.backgroundColor=colors[i];
     let work= document.createElement("div");
@@ -26,12 +27,13 @@ for(let i=0;i<imgs.length;i++){
     span.innerText=title[i];
     let img=document.createElement("img");
     img.src="./images/icon-ellipsis.svg"
+    image.alt=""
     workTitle.appendChild(span);
     workTitle.appendChild(img);
     const hrs=document.createElement("div");
     hrs.classList.add("hrs")
     work.appendChild(hrs)
-    const heading=document.createElement("h6");
+    const heading=document.createElement("h2");
     hrs.appendChild(heading);
     heading.innerText=`${hours[i]}hrs`;
     const p=document.createElement("p");
