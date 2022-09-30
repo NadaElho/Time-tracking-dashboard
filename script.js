@@ -27,7 +27,7 @@ for(let i=0;i<imgs.length;i++){
     span.innerText=title[i];
     let img=document.createElement("img");
     img.src="./images/icon-ellipsis.svg"
-    image.alt="icon"
+    img.alt="icon"
     workTitle.appendChild(span);
     workTitle.appendChild(img);
     const hrs=document.createElement("div");
