@@ -14,7 +14,7 @@ for(let i=0;i<imgs.length;i++){
     box.appendChild(boxName);
     let image=document.createElement("img");
     image.src=`images/icon-${imgs[i]}.svg`;
-    image.alt=" "
+    image.alt="task"
     boxName.appendChild(image);
     boxName.style.backgroundColor=colors[i];
     let work= document.createElement("div");
